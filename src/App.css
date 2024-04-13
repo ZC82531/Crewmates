@@ -1,0 +1,74 @@
+/* App.css */
+
+/* Style for the form container */
+.form-container {
+  margin: 50px auto;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3); /* Adjusted transparency */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(150, 150, 150, 0.2); /* Faint grey background */
+}
+
+/* Style for the input fields */
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Adjusted text color */
+}
+
+.form-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5); /* Adjusted transparency */
+  color: #333; /* Adjusted text color */
+  font-size: 16px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(76, 175, 80, 0.8); /* Adjusted transparency and color */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  padding: 20px 10px; /* Adjusted padding */
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Style for each box */
+.box {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  margin-right: 10px; /* Added margin between cards */
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the data inside each box */
+.data {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
